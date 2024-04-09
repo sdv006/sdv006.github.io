@@ -1,0 +1,127 @@
+p {
+    color: mediumpurple;
+    padding-left: 2em;
+    text-align: center;
+}
+
+body {
+    padding:0;
+    margin:0;
+}
+
+
+p.mediumpurple {
+    color: mediumpurple;
+    padding-left: 2em;
+}
+
+p.blue {
+    color: blue;
+}
+
+
+h1.mulish-demo {
+  font-family: "Mulish", sans-serif;
+  font-weight: <700>;
+  font-style: normal;
+    padding-left: 1em;
+    text-align: center;
+}
+
+p.mulish-demo {
+  font-family: "Mulish", sans-serif;
+  font-weight: <700>;
+  font-style: normal;
+}
+
+
+
+a:link {
+    color: green;
+}
+
+a:visited {
+    color: crimson;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color:chartreuse;
+    text-decoration: underline;
+    background-color: mediumpurple;
+    transition-property: color;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    transition-delay: 1s;
+    
+    
+    
+}
+
+
+h2 {
+    text-align: center
+}
+
+ul {
+    color: darkblue
+        
+}
+
+
+nav > ul > li {
+list-style-type: none;
+display: inline-block;
+    padding-right: 2em;
+}
+
+nav {
+    background-color: yellow;
+    background-color: yellow;
+    padding: 2%;
+}
+
+.img {
+    width: 100%
+}
+
+body {
+    background-image:url("../img/cast.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-attachment: fixed;
+}
+
+.movement {
+    animation-name: movement;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes movement {
+    0%, 100% {
+        transform: translate(0,0);
+    }
+    50% {
+        transform: translate(100px,0);
+    }
+}
+
+@media all and (min-width: 320px) and (max-width:780px) {
+    nav {
+        background-color: green;
+}
+}
+@media all and (min-width: 781px) and (max-width: 1000px) {
+     nav {
+        background-color: black;
+}
+} {
+    display: none;
+}
