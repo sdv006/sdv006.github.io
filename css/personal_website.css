@@ -19,6 +19,9 @@ p.blue {
     color: blue;
 }
 
+video {
+    width: 75%;
+}
 
 h1.mulish-demo {
   font-family: "Mulish", sans-serif;
@@ -89,7 +92,7 @@ nav {
 }
 
 body {
-    background-image:url("../img/cast.jpg");
+    background-color:blueviolet;
         background-repeat: no-repeat;
         background-size: contain;
         background-attachment: fixed;
