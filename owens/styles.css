@@ -1,0 +1,15 @@
+.water {
+background-image: url(img/RO%20FW23-24%201.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.h1 {
+    color: white;
+}
+
+
+a:hover {
+  background-color: yellow;
+}
+
